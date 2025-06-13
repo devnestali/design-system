@@ -12,14 +12,16 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "@call-ui/eslint-config": "*",
+    "@call-ui/ts-config": "*",
     "@call-ui/react": "*",
     "@call-ui/tokens": "*",
-    "@call-ui/eslint-config": "*"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
+    "@storybook/addon-docs": "^9.0.8",
     "@storybook/react-vite": "^9.0.8",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
