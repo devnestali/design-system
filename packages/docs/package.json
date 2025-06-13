@@ -1,19 +1,22 @@
 {
   "name": "docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint src/**/*.stories.tsx --fix",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "@call-ui/react": "*",
+    "@call-ui/tokens": "*",
+    "@call-ui/eslint-config": "*"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
