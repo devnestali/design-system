@@ -1,4 +1,4 @@
-import { ColorsGrid } from '../components/ColorsGrid'
+import { ColorsGrid } from '../../components/ColorsGrid'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

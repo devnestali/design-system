@@ -3,7 +3,7 @@ import { Button } from '@call-ui/react'
 import type { ButtonProps } from '@call-ui/react'
 
 export default {
-  title: 'Stories/Button',
+  title: 'Form/Button',
   component: Button,
   tags: ['autodocs'],
   args: {
