@@ -27,19 +27,19 @@ export const CheckboxContainer = styled(Checkbox.Root, {
 
 const slideIn = keyframes({
   from: {
-    transform: 'translateY(-100%)',
+    transform: 'translateX(-100%)',
   },
   to: {
-    transform: 'translateY(0)',
+    transform: 'translateX(0)',
   },
 })
 
 const slideOut = keyframes({
   from: {
-    transform: 'translateY(0)',
+    transform: 'translateX(0)',
   },
   to: {
-    transform: 'translateY(-100%)',
+    transform: 'translateX(-100%)',
   },
 })
 
