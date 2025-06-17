@@ -10,6 +10,13 @@ export default {
     src: 'https://github.com/devnestali.png',
     alt: 'Victor Nestali',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
   parameters: {
     docs: {
       description: {

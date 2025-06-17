@@ -13,6 +13,13 @@ export default {
       </>
     ),
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
   parameters: {
     docs: {
       description: {
