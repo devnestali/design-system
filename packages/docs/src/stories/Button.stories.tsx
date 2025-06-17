@@ -10,6 +10,11 @@ export default {
   args: {
     children: 'Send',
   },
+  argTypes: {
+    onClick: {
+      action: 'click',
+    },
+  },
   parameters: {
     docs: {
       description: {
@@ -45,7 +50,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
   args: {
     children: (
       <>
-        Proximo ejercicio
+        Next Lesson
         <ArrowRight weight="bold" />
       </>
     ),
