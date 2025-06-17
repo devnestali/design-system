@@ -828,4 +828,9 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
 interface ButtonProps extends ComponentProps<typeof Button> {
 }
 
-export { Avatar, type AvatarProps, Box, type BoxProps, Button, type ButtonProps, Text, type TextProps };
+interface TextInputProps extends ComponentProps<'input'> {
+    prefix?: string;
+}
+declare function TextInput({ prefix, ...props }: TextInputProps): react_jsx_runtime.JSX.Element;
+
+export { Avatar, type AvatarProps, Box, type BoxProps, Button, type ButtonProps, Text, TextInput, type TextInputProps, type TextProps };

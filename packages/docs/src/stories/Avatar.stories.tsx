@@ -13,7 +13,7 @@ export default {
   parameters: {
     docs: {
       description: {
-        component: 'Una estilización de texto reutilizable',
+        component: 'Una estilización del avatar de usuário reutilizable',
       },
     },
   },
