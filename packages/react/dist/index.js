@@ -1768,6 +1768,7 @@ __export(index_exports, {
   Box: () => Box,
   Button: () => Button,
   Checkbox: () => Checkbox2,
+  Heading: () => Heading,
   MultiStep: () => MultiStep,
   Text: () => Text,
   TextArea: () => TextArea,
@@ -1897,6 +1898,30 @@ var Box = styled("div", {
   border: "1px solid $gray600"
 });
 Box.displayName = "Box";
+
+// src/components/Heading.tsx
+var Heading = styled("h2", {
+  fontFamily: "$default",
+  lineHeight: "$shorter",
+  margin: 0,
+  color: "$gray100",
+  variants: {
+    size: {
+      sm: { fontSize: "$xl" },
+      md: { fontSize: "$2xl" },
+      lg: { fontSize: "$4xl" },
+      "2xl": { fontSize: "$5xl" },
+      "3xl": { fontSize: "$6xl" },
+      "4xl": { fontSize: "$7xl" },
+      "5xl": { fontSize: "$8xl" },
+      "6xl": { fontSize: "$9xl" }
+    }
+  },
+  defaultVariants: {
+    size: "md"
+  }
+});
+Heading.displayName = "Heading";
 
 // src/components/Text.tsx
 var Text = styled("p", {
@@ -2240,6 +2265,7 @@ MultiStep.displayName = "MultiStep";
   Box,
   Button,
   Checkbox,
+  Heading,
   MultiStep,
   Text,
   TextArea,
