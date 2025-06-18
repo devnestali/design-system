@@ -1,4 +1,4 @@
-import { colors } from '@call-ui/tokens'
+import { colors } from '@devnestali-call-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {
