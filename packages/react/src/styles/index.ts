@@ -7,7 +7,7 @@ import {
   lineHeights,
   radius,
   space,
-} from '@call-ui/tokens'
+} from '@devnestali-call-ui/tokens'
 
 export const {
   styled,

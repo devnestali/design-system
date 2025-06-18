@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { TokensGrid } from '../../components/TokensGrid'
-import { lineHeights } from '@call-ui/tokens'
+import { lineHeights } from '@devnestali-call-ui/tokens'
 
 export default {
   title: 'Tokens/Line Heights',

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { TokensGrid } from '../../components/TokensGrid'
-import { fontSizes } from '@call-ui/tokens'
+import { fontSizes } from '@devnestali-call-ui/tokens'
 
 export default {
   title: 'Tokens/Font Sizes',

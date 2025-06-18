@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Text } from '@call-ui/react'
-import type { TextProps } from '@call-ui/react'
+import { Text } from '@devnestali-call-ui/react'
+import type { TextProps } from '@devnestali-call-ui/react'
 
 export default {
   title: 'Typography/Text',

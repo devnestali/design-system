@@ -1,4 +1,4 @@
 {
-  "extends": "@call-ui/ts-config/react.json",
+  "extends": "@devnestali-call-ui/ts-config/react.json",
   "include": ["src"]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@devnestali-call-ui/docs",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -11,10 +11,10 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@call-ui/eslint-config": "*",
-    "@call-ui/react": "*",
-    "@call-ui/tokens": "*",
-    "@call-ui/ts-config": "*",
+    "@devnestali-call-ui/eslint-config": "*",
+    "@devnestali-call-ui/react": "*",
+    "@devnestali-call-ui/tokens": "*",
+    "@devnestali-call-ui/ts-config": "*",
     "@storybook/addon-a11y": "^9.0.11",
     "phosphor-react": "^1.4.1",
     "react": "^19.1.0",

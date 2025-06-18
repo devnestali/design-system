@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { TokensGrid } from '../../components/TokensGrid'
-import { space } from '@call-ui/tokens'
+import { space } from '@devnestali-call-ui/tokens'
 
 export default {
   title: 'Tokens/Space',

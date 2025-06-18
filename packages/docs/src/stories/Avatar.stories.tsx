@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar } from '@call-ui/react'
-import type { AvatarProps } from '@call-ui/react'
+import { Avatar } from '@devnestali-call-ui/react'
+import type { AvatarProps } from '@devnestali-call-ui/react'
 
 export default {
   title: 'Data display/Avatar',

@@ -1,5 +1,5 @@
 {
-  "name": "@call-ui/eslint-config",
+  "name": "@devnestali-call-ui/eslint-config",
   "license": "MIT",
   "private": true,
   "main": "index.js",

@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { TokensGrid } from '../../components/TokensGrid'
-import { fonts } from '@call-ui/tokens'
+import { fonts } from '@devnestali-call-ui/tokens'
 
 export default {
   title: 'Tokens/Font Families',

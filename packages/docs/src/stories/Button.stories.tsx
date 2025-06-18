@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button } from '@call-ui/react'
-import type { ButtonProps } from '@call-ui/react'
+import { Button } from '@devnestali-call-ui/react'
+import type { ButtonProps } from '@devnestali-call-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
 export default {

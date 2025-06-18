@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { TokensGrid } from '../../components/TokensGrid'
-import { fontWeights } from '@call-ui/tokens'
+import { fontWeights } from '@devnestali-call-ui/tokens'
 
 export default {
   title: 'Tokens/Font Weights',

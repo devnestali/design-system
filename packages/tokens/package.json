@@ -1,5 +1,5 @@
 {
-  "name": "@call-ui/tokens",
+  "name": "@devnestali-call-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -15,8 +15,8 @@
   "license": "MIT",
   "type": "commonjs",
   "devDependencies": {
-    "@call-ui/ts-config": "*",
-    "@call-ui/eslint-config": "*",
+    "@devnestali-call-ui/ts-config": "*",
+    "@devnestali-call-ui/eslint-config": "*",
     "tsup": "^8.1.0",
     "typescript": "^5.8.3"
   }

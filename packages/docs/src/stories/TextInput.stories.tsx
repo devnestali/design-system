@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextInput } from '@call-ui/react'
-import type { TextInputProps } from '@call-ui/react'
+import { Box, Text, TextInput } from '@devnestali-call-ui/react'
+import type { TextInputProps } from '@devnestali-call-ui/react'
 
 export default {
   title: 'Form/Text Input',
