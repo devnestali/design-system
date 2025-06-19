@@ -1772,8 +1772,7 @@ var colors = {
   green300: "#00b37e",
   green500: "#00875f",
   green700: "#015f43",
-  green900: "#00291d",
-  test: "#000"
+  green900: "#00291d"
 };
 var space = {
   1: "0.25rem",
