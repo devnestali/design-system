@@ -2258,6 +2258,46 @@ function MultiStep({ size, currentStep = 1 }) {
   ] });
 }
 MultiStep.displayName = "MultiStep";
+
+// src/components/Tooltip/index.tsx
+import {
+  TooltipProvider,
+  Root as Root3,
+  TooltipTrigger,
+  TooltipPortal,
+  TooltipArrow
+} from "@radix-ui/react-tooltip";
+
+// src/components/Tooltip/styles.ts
+import * as Tooltip from "@radix-ui/react-tooltip";
+var TooltipContentStyled = styled(Tooltip.TooltipContent, {
+  backgroundColor: "$gray900",
+  color: "$gray100",
+  textAlign: "center",
+  padding: "$2 $4",
+  borderRadius: "$xs"
+});
+var TooltipInfo = styled("span", {
+  fontSize: "$sm",
+  fontFamily: "$default"
+});
+
+// src/components/Tooltip/index.tsx
+var import_jsx_runtime5 = __toESM(require_jsx_runtime());
+function Tooltip2({ date, disponibility, children }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(TooltipProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(Root3, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(TooltipTrigger, { asChild: true, children }),
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(TooltipPortal, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(TooltipContentStyled, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(TooltipInfo, { children: date }),
+      " -",
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(TooltipInfo, { children: [
+        " ",
+        disponibility
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(TooltipArrow, {})
+    ] }) })
+  ] }) });
+}
 export {
   Avatar2 as Avatar,
   Box,
@@ -2268,6 +2308,7 @@ export {
   Text,
   TextArea,
   TextInput,
+  Tooltip2 as Tooltip,
   config,
   createTheme,
   css,

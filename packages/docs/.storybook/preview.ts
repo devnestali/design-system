@@ -11,7 +11,14 @@ const preview: Preview = {
     },
     options: {
       storySort: {
-        order: ['Tokens', 'Typography', 'Surfaces', 'Form', 'Data Display'],
+        order: [
+          'Tokens',
+          'Typography',
+          'Surfaces',
+          'Form',
+          'Popover',
+          'Data Display',
+        ],
       },
     },
   },

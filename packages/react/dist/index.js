@@ -1773,6 +1773,7 @@ __export(index_exports, {
   Text: () => Text,
   TextArea: () => TextArea,
   TextInput: () => TextInput,
+  Tooltip: () => Tooltip2,
   config: () => config,
   createTheme: () => createTheme,
   css: () => css,
@@ -2287,6 +2288,40 @@ function MultiStep({ size, currentStep = 1 }) {
   ] });
 }
 MultiStep.displayName = "MultiStep";
+
+// src/components/Tooltip/index.tsx
+var import_react_tooltip = require("@radix-ui/react-tooltip");
+
+// src/components/Tooltip/styles.ts
+var Tooltip = __toESM(require("@radix-ui/react-tooltip"));
+var TooltipContentStyled = styled(Tooltip.TooltipContent, {
+  backgroundColor: "$gray900",
+  color: "$gray100",
+  textAlign: "center",
+  padding: "$2 $4",
+  borderRadius: "$xs"
+});
+var TooltipInfo = styled("span", {
+  fontSize: "$sm",
+  fontFamily: "$default"
+});
+
+// src/components/Tooltip/index.tsx
+var import_jsx_runtime5 = __toESM(require_jsx_runtime());
+function Tooltip2({ date, disponibility, children }) {
+  return /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_tooltip.TooltipProvider, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react_tooltip.Root, { children: [
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_tooltip.TooltipTrigger, { asChild: true, children }),
+    /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_tooltip.TooltipPortal, { children: /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(TooltipContentStyled, { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(TooltipInfo, { children: date }),
+      " -",
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(TooltipInfo, { children: [
+        " ",
+        disponibility
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(import_react_tooltip.TooltipArrow, {})
+    ] }) })
+  ] }) });
+}
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   Avatar,
@@ -2298,6 +2333,7 @@ MultiStep.displayName = "MultiStep";
   Text,
   TextArea,
   TextInput,
+  Tooltip,
   config,
   createTheme,
   css,
