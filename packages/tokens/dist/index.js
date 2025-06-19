@@ -44,7 +44,8 @@ var colors = {
   green300: "#00b37e",
   green500: "#00875f",
   green700: "#015f43",
-  green900: "#00291d"
+  green900: "#00291d",
+  test: "#000"
 };
 
 // src/space.ts
