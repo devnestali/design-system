@@ -1,5 +1,13 @@
 # @devnestali-call-ui/react
 
+## 2.1.0
+
+### Minor Changes
+
+- Add tooltip component
+- 343fd25: Add Tooltip component
+- Add Tooltip component
+
 ## 2.0.1
 
 ### Patch Changes
