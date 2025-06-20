@@ -8,8 +8,7 @@ import {
 import { ComponentProps, ReactNode } from 'react'
 import { TooltipContentStyled, TooltipInfo } from './styles'
 
-export interface TooltipProps
-  extends ComponentProps<typeof TooltipContentStyled> {
+export interface TooltipProps extends ComponentProps<typeof Root> {
   date: string
   disponibility: 'Disponíble' | 'Indisponíble'
   children: ReactNode
@@ -17,14 +16,13 @@ export interface TooltipProps
 
 export function Tooltip({ date, disponibility, children }: TooltipProps) {
   return (
-    <TooltipProvider>
+    <TooltipProvider delayDuration={300}>
       <Root>
         <TooltipTrigger asChild>{children}</TooltipTrigger>
 
         <TooltipPortal>
           <TooltipContentStyled>
-            <TooltipInfo>{date}</TooltipInfo> -
-            <TooltipInfo> {disponibility}</TooltipInfo>
+            <time>{date}</time> -<TooltipInfo> {disponibility}</TooltipInfo>
             <TooltipArrow />
           </TooltipContentStyled>
         </TooltipPortal>

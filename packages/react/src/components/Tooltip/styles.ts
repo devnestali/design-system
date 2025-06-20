@@ -7,6 +7,11 @@ export const TooltipContentStyled = styled(Tooltip.TooltipContent, {
   textAlign: 'center',
   padding: '$2 $4',
   borderRadius: '$xs',
+
+  time: {
+    fontSize: '$sm',
+    fontFamily: '$default',
+  },
 })
 
 export const TooltipInfo = styled('span', {
