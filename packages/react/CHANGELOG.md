@@ -1,5 +1,11 @@
 # @devnestali-call-ui/react
 
+## 2.2.1
+
+### Patch Changes
+
+- Add as prop to Heading component
+
 ## 2.2.0
 
 ### Minor Changes
