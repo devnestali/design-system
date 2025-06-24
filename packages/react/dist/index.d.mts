@@ -1,7 +1,7 @@
 import * as _stitches_react_types_styled_component from '@stitches/react/types/styled-component';
 import * as _stitches_react_types_css_util from '@stitches/react/types/css-util';
 import * as react from 'react';
-import { ComponentProps, ReactNode } from 'react';
+import { ComponentProps, ElementType, ReactNode } from 'react';
 import * as react_jsx_runtime from 'react/jsx-runtime';
 import * as Avatar$1 from '@radix-ui/react-avatar';
 import * as Checkbox$1 from '@radix-ui/react-checkbox';
@@ -419,6 +419,7 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
     zIndex: "zIndices";
 }, {}>>;
 interface HeadingProps extends ComponentProps<typeof Heading> {
+    as?: ElementType;
 }
 
 declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", {
