@@ -1,5 +1,11 @@
 # @devnestali-call-ui/react
 
+## 2.2.3
+
+### Patch Changes
+
+- Solving bugs on TextInput
+
 ## 2.2.2
 
 ### Patch Changes
