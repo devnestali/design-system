@@ -1,9 +1,10 @@
 import { Check } from 'phosphor-react'
 import { CheckboxContainer, CheckboxIndicator } from './styles'
-import { ComponentProps } from 'react'
+import { ButtonHTMLAttributes } from 'react'
 
-export interface CheckboxProps
-  extends ComponentProps<typeof CheckboxContainer> {}
+type ButtonCheckboxProps = ButtonHTMLAttributes<HTMLButtonElement>
+
+export interface CheckboxProps extends ButtonCheckboxProps {}
 
 export function Checkbox(props: CheckboxProps) {
   return (

@@ -1,5 +1,11 @@
 # @devnestali-call-ui/react
 
+## 2.2.6
+
+### Patch Changes
+
+- Updating checkbox component
+
 ## 2.2.5
 
 ### Patch Changes
