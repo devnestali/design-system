@@ -1,7 +1,9 @@
-import { ComponentProps, forwardRef, ComponentRef } from 'react'
+import { forwardRef, ComponentRef, ComponentProps } from 'react'
 import { Input, Prefix, TextInputContainer } from './styles'
 
-export interface TextInputProps extends ComponentProps<typeof Input> {
+export type InputProps = ComponentProps<typeof Input>
+
+export interface TextInputProps extends InputProps {
   prefix?: string
   disabled?: boolean
   placeholder?: string

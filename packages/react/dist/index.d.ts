@@ -1246,7 +1246,8 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
     zIndex: "zIndices";
 }, {}>>;
 
-interface TextInputProps extends ComponentProps<typeof Input> {
+type InputProps = ComponentProps<typeof Input>;
+interface TextInputProps extends InputProps {
     prefix?: string;
     disabled?: boolean;
     placeholder?: string;
@@ -3375,4 +3376,4 @@ declare const config: {
     utils: {};
 };
 
-export { Avatar, type AvatarProps, Box, type BoxProps, Button, type ButtonProps, Checkbox, type CheckboxProps, Heading, type HeadingProps, MultiStep, type MultiStepProps, Text, TextArea, type TextAreaProps, TextInput, type TextInputProps, type TextProps, Toast, type ToastProps, Tooltip, type TooltipProps, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
+export { Avatar, type AvatarProps, Box, type BoxProps, Button, type ButtonProps, Checkbox, type CheckboxProps, Heading, type HeadingProps, type InputProps, MultiStep, type MultiStepProps, Text, TextArea, type TextAreaProps, TextInput, type TextInputProps, type TextProps, Toast, type ToastProps, Tooltip, type TooltipProps, config, createTheme, css, getCssText, globalCss, keyframes, styled, theme };
