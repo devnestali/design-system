@@ -1,10 +1,8 @@
 import { Check } from 'phosphor-react'
 import { CheckboxContainer, CheckboxIndicator } from './styles'
-import { ButtonHTMLAttributes } from 'react'
+import * as CheckboxPrimitive from '@radix-ui/react-checkbox'
 
-type ButtonCheckboxProps = ButtonHTMLAttributes<HTMLButtonElement>
-
-export interface CheckboxProps extends ButtonCheckboxProps {}
+export interface CheckboxProps extends CheckboxPrimitive.CheckboxProps {}
 
 export function Checkbox(props: CheckboxProps) {
   return (

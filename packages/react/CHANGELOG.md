@@ -1,5 +1,11 @@
 # @devnestali-call-ui/react
 
+## 2.2.7
+
+### Patch Changes
+
+- Updating Checkbox by add CheckboxProps
+
 ## 2.2.6
 
 ### Patch Changes
