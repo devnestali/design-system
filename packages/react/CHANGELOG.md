@@ -1,5 +1,11 @@
 # @devnestali-call-ui/react
 
+## 2.2.5
+
+### Patch Changes
+
+- Updating TextInput Props
+
 ## 2.2.4
 
 ### Patch Changes

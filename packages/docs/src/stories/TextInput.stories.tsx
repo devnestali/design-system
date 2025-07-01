@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import { Box, Text, TextInput } from '@devnestali-call-ui/react'
-import type { InputProps } from '@devnestali-call-ui/react'
+import type { TextInputProps } from '@devnestali-call-ui/react'
 
 export default {
   title: 'Form/Text Input',
@@ -26,27 +26,27 @@ export default {
       },
     },
   },
-} as Meta<InputProps>
+} as Meta<TextInputProps>
 
-export const Primary: StoryObj<InputProps> = {
+export const Primary: StoryObj<TextInputProps> = {
   args: {
     placeholder: 'Type your name',
   },
 }
 
-export const Disabled: StoryObj<InputProps> = {
+export const Disabled: StoryObj<TextInputProps> = {
   args: {
     disabled: true,
   },
 }
 
-export const WithPrefix: StoryObj<InputProps> = {
+export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
     placeholder: 'your-username',
   },
 }
-export const WithTypeTimer: StoryObj<InputProps> = {
+export const WithTypeTimer: StoryObj<TextInputProps> = {
   args: {
     type: 'time',
   },
