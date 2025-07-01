@@ -1,5 +1,0 @@
-import{H as n}from"./index-ughgkd17.js";import"./iframe-Cf-jqRVS.js";import"./jsx-runtime-D_zvdyIk.js";import"./index-BJs8N_Kt.js";import"./index-BVsp1G07.js";const u={title:"Typography/Heading",component:n,tags:["autodocs"],args:{size:"md",children:"Custom Title"},argTypes:{size:{options:["xxs","xs","sm","md","lg","2xl","4xl","5xl","6xl"],control:{type:"inline-radio"}}},parameters:{docs:{description:{component:"Por padrón el heading siempre será un `h2`, pero podemos alterar eso con una propiedad `as`"}}}},r={},e={args:{as:"h1"}};var s,o,a;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:"{}",...(a=(o=r.parameters)==null?void 0:o.docs)==null?void 0:a.source}}};var t,p,i;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
-  args: {
-    as: 'h1'
-  }
-}`,...(i=(p=e.parameters)==null?void 0:p.docs)==null?void 0:i.source}}};const x=["Primary","CustomTag"];export{e as CustomTag,r as Primary,x as __namedExportsOrder,u as default};
