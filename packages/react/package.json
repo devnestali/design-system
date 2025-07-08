@@ -1,6 +1,6 @@
 {
   "name": "@devnestali-call-ui/react",
-  "version": "2.2.10",
+  "version": "2.2.11",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
