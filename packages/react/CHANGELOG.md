@@ -1,5 +1,11 @@
 # @devnestali-call-ui/react
 
+## 2.2.10
+
+### Patch Changes
+
+- Update extends props on avatar
+
 ## 2.2.9
 
 ### Patch Changes

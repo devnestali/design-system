@@ -1,10 +1,8 @@
-import { ComponentProps } from 'react'
 import { AvatarContainer, AvatarFallback, AvatarImage } from './styles'
 import { User } from 'phosphor-react'
+import * as AvatarPrimitive from '@radix-ui/react-avatar'
 
-export interface AvatarProps extends ComponentProps<typeof AvatarImage> {
-  src: string | undefined
-}
+export interface AvatarProps extends AvatarPrimitive.AvatarProps {}
 
 export function Avatar(props: AvatarProps) {
   return (
