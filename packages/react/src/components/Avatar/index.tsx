@@ -3,7 +3,7 @@ import { AvatarContainer, AvatarFallback, AvatarImage } from './styles'
 import { User } from 'phosphor-react'
 
 export interface AvatarProps extends ComponentProps<typeof AvatarImage> {
-  src: string
+  src: string | undefined
 }
 
 export function Avatar(props: AvatarProps) {

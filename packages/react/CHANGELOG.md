@@ -1,5 +1,11 @@
 # @devnestali-call-ui/react
 
+## 2.2.9
+
+### Patch Changes
+
+- Update props by add undefined in Avatar component
+
 ## 2.2.8
 
 ### Patch Changes
