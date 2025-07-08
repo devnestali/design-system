@@ -1,5 +1,11 @@
 # @devnestali-call-ui/react
 
+## 2.2.8
+
+### Patch Changes
+
+- Update props on Avatar component
+
 ## 2.2.7
 
 ### Patch Changes
